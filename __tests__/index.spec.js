@@ -6,5 +6,5 @@ test("hello_world", () => {
 
     const content = fs.readFileSync(`${__dirname}/../build/index.html`, 'utf-8');
 
-    expect(content).toEqual('Hello world');
+    expect(content).toEqual('oeoeoe');
 })
