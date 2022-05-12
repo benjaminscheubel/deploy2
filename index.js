@@ -7,7 +7,7 @@ const createIndexFile = () => {
     }
    
     
-    fs.writeFileSync('build/index.html', "https://raw.githubusercontent.com/benjaminscheubel/deploy2/main/img/static-assets-upload15450755136710713434.webp");
+    fs.writeFileSync('build/index.html', src="https://raw.githubusercontent.com/benjaminscheubel/deploy2/main/img/static-assets-upload15450755136710713434.webp");
 };
 
 createIndexFile();
