@@ -5,7 +5,9 @@ const createIndexFile = () => {
     if (!fs.existsSync('build')) {
         fs.mkdirSync('build')
     }
-    fs.writeFileSync('build/index.html', '');
+    var img = document.createElement("img");
+    img.src = "https://raw.githubusercontent.com/benjaminscheubel/deploy2/main/img/static-assets-upload15450755136710713434.webp";
+    fs.writeFileSync('build/index.html', img.src);
 };
 
 createIndexFile();
